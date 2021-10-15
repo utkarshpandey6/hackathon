@@ -1,0 +1,21 @@
+.backdrop-close-icon {
+    color: white;
+}
+.backdrop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backdrop-close-icon-button {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .backdrop-close-icon-button {
+        right: 25px;
+        top: 18px;
+    }
+}

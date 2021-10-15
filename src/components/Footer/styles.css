@@ -1,0 +1,172 @@
+.footer-container {
+    width: 100%;
+    background-color: #353b48;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.footer-links-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding: 10px 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer-links {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-links ul {
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer-links ul li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links ul li::before {
+    content: '\2022';
+    color: white;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer-links ul li:hover::before {
+    content: '\2022';
+    color: #e84118;
+    transition: all 300ms;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer-links-text,
+.footer-links-text:visited {
+    color: white;
+    margin: 3px 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer-center-container {
+    width: 60%;
+    max-width: 654px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-college-logo {
+    width: 20%;
+    margin: 15px;
+    height: auto;
+}
+
+.footer-right-text {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px 5px 0px;
+}
+
+.footer-made-text {
+    margin: 5px 0px 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-container {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.code {
+    color: white;
+}
+
+.facebook:hover {
+    color: #3b5998;
+    transition: color linear 300ms;
+}
+.instagram:hover {
+    color: #c32aa3;
+    transition: color linear 300ms;
+}
+.twitter:hover {
+    color: #1da1f2;
+    transition: color linear 300ms;
+}
+.code:hover {
+    color: #d32323;
+    transition: color linear 300ms;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-center-container {
+        width: 100%;
+    }
+    .footer-links-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-right-text {
+        font-size: 16px;
+    }
+    .footer-made-text {
+        font-size: 14px;
+    }
+    .facebook,
+    .instagram,
+    .twitter,
+    .code {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .footer-right-text {
+        font-size: 12px;
+    }
+    .footer-made-text {
+        font-size: 11px;
+    }
+
+    .footer-college-logo {
+        width: 30%;
+    }
+}

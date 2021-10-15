@@ -1,0 +1,10 @@
+export let BASE_URL = 'http://localhost:3001/'
+export let LOGIN = 'auth/login/'
+export let SIGNUP = 'auth/signup/'
+export let REFRESH_TOKEN = 'auth/refresh_token/'
+export let VERIFY = `auth/verify/`
+export let SEND_VERIFICATION = 'mailer/verify/'
+export let PASSWORD_RESET_REQUEST = 'mailer/password_reset/'
+export let PASSWORD_RESET = 'auth/password_reset/'
+export let PROFILE = 'user/me/'
+export let PROFILE_UPDATE = 'user/update/'

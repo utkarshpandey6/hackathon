@@ -1,0 +1,11 @@
+.card {
+    width: 250px;
+    box-sizing: border-box;
+    min-width: 225px;
+    min-height: 40px;
+    border-radius: 4px;
+    text-align: left;
+    margin: 40px 20px;
+    overflow: hidden;
+    box-shadow: 7px 7px 14px -3px rgba(0, 0, 0, 0.75);
+}

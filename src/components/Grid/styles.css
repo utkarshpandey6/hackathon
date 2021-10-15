@@ -1,0 +1,89 @@
+.grid-container {
+    width: 100%;
+
+    display: grid;
+
+    vertical-align: center;
+    grid-gap: 18px 18px;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-container-square {
+    width: 100%;
+    display: grid;
+    vertical-align: center;
+    grid-gap: 18px 18px;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 995px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        padding-left: 3px;
+        padding-right: 3px;
+        vertical-align: center;
+        grid-gap: 7px 7px;
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        padding-left: 3px;
+        padding-right: 3px;
+        vertical-align: center;
+        grid-gap: 7px 7px;
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 743px) {
+    .grid-container-square {
+        width: 100%;
+        display: grid;
+        padding-left: 3px;
+        padding-right: 3px;
+        vertical-align: center;
+        grid-gap: 7px 7px;
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .grid-container-square {
+        width: 100%;
+        display: grid;
+        padding-left: 3px;
+        padding-right: 3px;
+        vertical-align: center;
+        grid-gap: 7px 7px;
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+}

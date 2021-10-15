@@ -1,0 +1,12 @@
+.mapbg {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(14, 9, 1, 0.7),
+            rgba(253, 245, 232, 0.7)
+        ),
+        url('../../assets/FlagImgBig.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: lighten;
+}

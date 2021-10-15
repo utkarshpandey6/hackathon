@@ -1,0 +1,25 @@
+.links,
+.links:visited {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.white {
+    color: white;
+}
+
+.links:after {
+    background-color: rgba(0, 168, 255, 1);
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    transition: all 0.6s;
+}
+
+.links:hover:after {
+    width: 80%;
+}

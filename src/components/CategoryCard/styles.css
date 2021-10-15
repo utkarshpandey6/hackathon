@@ -1,0 +1,48 @@
+.description-text4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 78px;
+    text-align: center;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.description-text1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 30px;
+    text-align: center;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.description-text2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 44px;
+    text-align: center;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.description-text3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 58px;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.description-text5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 86px;
+    text-align: center;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}

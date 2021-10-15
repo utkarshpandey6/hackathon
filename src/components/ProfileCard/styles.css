@@ -1,0 +1,52 @@
+.avatar {
+    width: 10rem;
+    z-index: 10000;
+    height: 10rem;
+    margin-left: 1rem;
+    margin-top: -3rem;
+    padding: 1rem;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-color: #d1d9e6;
+    box-shadow: inset 2px 2px 5px #b8b9be;
+}
+.avatar img {
+    border-radius: 50%;
+    align-self: center;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-container {
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    border-radius: 7px;
+    border-width: 4px;
+    display: flex;
+    text-align: left;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 7px 7px 14px -3px rgba(0, 0, 0, 0.75);
+    border-color: red;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.profile-card-content {
+    margin-top: 6rem;
+    border-radius: 3px;
+    border-color: red;
+    width: 97%;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-left: 28px;
+}

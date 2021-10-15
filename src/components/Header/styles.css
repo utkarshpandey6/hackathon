@@ -1,0 +1,126 @@
+.header-container {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1200;
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+}
+
+.logo-container {
+    width: 23%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.link-container {
+    width: 87%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stroke {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav button.nav-button,
+button.nav-button:active {
+    display: flex;
+    outline: none;
+    background-color: transparent;
+    padding: 0.7rem;
+    letter-spacing: 0.03299em;
+    border: none;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 0.85em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 18px;
+    font-weight: 500;
+}
+
+nav button.nav-button,
+nav button.nav-button:after,
+nav button.nav-button:before {
+    transition: all 0.5s;
+}
+nav button.nav-button:hover,
+button.nav-button:focus {
+    color: rgba(0, 0, 0, 0.801);
+}
+nav.stroke button.nav-button {
+    position: relative;
+}
+nav.stroke button.nav-button:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #e84118;
+    height: 0.1em;
+}
+
+nav.stroke button.nav-button:hover:after {
+    width: 100%;
+}
+
+nav.stroke button.nav-button:focus:after {
+    width: 100%;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    cursor: pointer;
+    margin: 3px 0px 0px 25%;
+}
+
+.icon-button {
+    padding: 10px;
+    border-radius: 550px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.drawer-logo-container {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.drawer-logo {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    .logo-container {
+        width: 80%;
+    }
+    .link-container {
+        width: 20%;
+    }
+    .logo {
+        margin: 3px 0px 0px 10px;
+    }
+}
